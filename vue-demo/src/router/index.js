@@ -20,16 +20,6 @@ const routes = [
             meta: {keepAlive: true},
           },
           {
-            path: '/Drag',
-            component: resolve => require(['../views/Drag.vue'], resolve),
-            meta: {keepAlive: true},
-          },
-          {
-            path: '/Date',
-            component: resolve => require(['../views/Date.vue'], resolve),
-            meta: {keepAlive: true},
-          },
-          {
             path: '/List',
             component: resolve => require(['../views/List.vue'], resolve),
             // meta:{keepAlive:true}
@@ -37,18 +27,22 @@ const routes = [
           {
             path: '/test01',
             component: resolve => require(['../views/test01.vue'], resolve),
+            // meta:{keepAlive:true}
           },
           {
             path: '/test02',
             component: resolve => require(['../views/test02.vue'], resolve),
+            // meta:{keepAlive:true}
           },
           {
-            path: '/jsPlumb',
-            component: resolve => require(['../views/jsPlumb.vue'], resolve),
+            path: '/ES6',
+            component: resolve => require(['../views/ES6.vue'], resolve),
+            // meta:{keepAlive:true}
           },
           {
-            path: '/ElementMenu',
-            component: resolve => require(['../views/ElementMenu.vue'], resolve),
+            path: '/Slot',
+            component: resolve => require(['../views/slot.vue'], resolve),
+            // meta:{keepAlive:true}
           },
       	]
   	}
